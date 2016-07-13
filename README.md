@@ -1,7 +1,7 @@
-# myjava
-学习JAVA过程中的实例
+# MyJava
+瀛︿範JAVA杩囩▼涓殑瀹炰緥
 
 
-# 目录索引
+# 鐩綍绱㈠紩
 
-jni--->JNI调用方法
+jni--->JNI璋冪敤鏂规硶
