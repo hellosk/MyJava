@@ -1,7 +1,7 @@
-# hello-world
-first modify this line.
+# myjava
+学习JAVA过程中的实例
 
 
-# test
+# 目录索引
 
-add some words11111111111.
+jni--->JNI调用方法
