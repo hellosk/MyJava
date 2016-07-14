@@ -1,23 +1,23 @@
-# µ÷ÓÃJNIº¯Êý
-JavaÖÐµ÷ÓÃJNI±¾µØº¯Êý£¬CÖÐÍ¨¹ýµ÷ÓÃJNIº¯ÊýÀ´ÉèÖÃ»ñÈ¡javaÖÐ³ÉÔ±±äÁ¿¡¢µ÷ÓÃjavaÖÐµÄ³ÉÔ±·½·¨£¬Ö÷³ÌÐòÓÃJava±àÐ´
+# è°ƒç”¨JNIå‡½æ•°
+Javaä¸­è°ƒç”¨JNIæœ¬åœ°å‡½æ•°ï¼ŒCä¸­é€šè¿‡è°ƒç”¨JNIå‡½æ•°æ¥è®¾ç½®èŽ·å–javaä¸­æˆå‘˜å˜é‡ã€è°ƒç”¨javaä¸­çš„æˆå‘˜æ–¹æ³•ï¼Œä¸»ç¨‹åºç”¨Javaç¼–å†™
 
-## ±àÒëÔËÐÐ·½·¨
-1.±àÒëjava²ã´úÂë£º make java
-2.ÀûÓÃjavapÃüÁî»ñÈ¡Àà³ÉÔ±µÄÇ©Ãû£º javap -s -p [classname]
-3.Ìí¼ÓÇ©Ãûµ½CÎÄ¼þ
-4.±àÒëC²ã´úÂë£º make local
-5.ÔËÐÐ³ÌÐò£º make run
+## ç¼–è¯‘è¿è¡Œæ–¹æ³•
+* 1.ç¼–è¯‘javaå±‚ä»£ç ï¼š make java
+* 2.åˆ©ç”¨javapå‘½ä»¤èŽ·å–ç±»æˆå‘˜çš„ç­¾åï¼š javap -s -p [classname]
+* 3.æ·»åŠ ç­¾ååˆ°Cæ–‡ä»¶
+* 4.ç¼–è¯‘Cå±‚ä»£ç ï¼š make local
+* 5.è¿è¡Œç¨‹åºï¼š make run
 
-## ÓÃµ½µÄJNIº¯Êý
-1.GetStaticFieldID --> ´ÓÀàÖÐ»ñÈ¡static±äÁ¿ID
-2.GetStaticIntField -->  Í¨¹ýstatic±äÁ¿ID»ñÈ¡Öµ
-3.FindClass --> Í¨¹ý¶ÔÏó²éÕÒÀà
-4.GetMethodID --> Í¨¹ýÀà²éÕÒ·½·¨
-5.NewObject --> Éú³É¶ÔÏó
-6.CallIntMethod --> µ÷ÓÃÀàµÄ·½·¨
-7.GetFieldID --> ´ÓÀàÖÐ»ñÈ¡ÆÕÍ¨±äÁ¿ID
-8.SetIntField --> ÉèÖÃ¶ÔÏóÖÐ±äÁ¿µÄÖµ
-9.GetIntField --> »ñÈ¡¶ÔÏóÖÐ±äÁ¿µÄÖµ
+## ç”¨åˆ°çš„JNIå‡½æ•°
+* 1.GetStaticFieldID --> ä»Žç±»ä¸­èŽ·å–staticå˜é‡ID
+* 2.GetStaticIntField -->  é€šè¿‡staticå˜é‡IDèŽ·å–å€¼
+* 3.FindClass --> é€šè¿‡å¯¹è±¡æŸ¥æ‰¾ç±»
+* 4.GetMethodID --> é€šè¿‡ç±»æŸ¥æ‰¾æ–¹æ³•
+* 5.NewObject --> ç”Ÿæˆå¯¹è±¡
+* 6.CallIntMethod --> è°ƒç”¨ç±»çš„æ–¹æ³•
+* 7.GetFieldID --> ä»Žç±»ä¸­èŽ·å–æ™®é€šå˜é‡ID
+* 8.SetIntField --> è®¾ç½®å¯¹è±¡ä¸­å˜é‡çš„å€¼
+* 9.GetIntField --> èŽ·å–å¯¹è±¡ä¸­å˜é‡çš„å€¼
 
 
 
