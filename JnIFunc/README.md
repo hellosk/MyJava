@@ -1,5 +1,5 @@
 # 调用JNI函数
-Java中调用JNI本地函数，C中通过调用JNI函数来设置java中成员变量、调用java中的成员方法。
+Java中调用JNI本地函数，C中通过调用JNI函数来设置获取java中成员变量、调用java中的成员方法，主程序用Java编写
 
 ## 编译运行方法
 1.编译java层代码： make java
