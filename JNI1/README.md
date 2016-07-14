@@ -1,5 +1,5 @@
-# JNI调用实例
-在Java中调用C库函数，包含了Java和C语言的编译、运行方法，另外编写了一个Makefile文件。
+# 在Java中调用C库函数
+包含了Java和C语言的编译、运行方法，另外编写了一个Makefile文件。
 
 # JNI调用C函数的步骤
 1.编写Java代码，编译Java代码；
