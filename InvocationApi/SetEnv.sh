@@ -1,0 +1,1 @@
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/java/jdk1.8.0_91/jre/lib/i386/client
