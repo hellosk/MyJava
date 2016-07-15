@@ -5,11 +5,12 @@ SK_CFLAGS+= -I /usr/java/jdk1.8.0_91/include
 SK_CFLAGS+= -I /usr/java/jdk1.8.0_91/include/linux
 
 java:
-	@echo make all
+	@echo make java
 	javac $(SK_JAVA_SRCS)
 	javah $(SK_JAVA_CLASS)
 
 local:
+	@echo make local
 	gcc $(SK_CFLAGS) -c $(SK_JAVA_CLASS).c
 	gcc -shared $(SK_JAVA_CLASS).o -o $(SK_SHARED_LIB) 
 
